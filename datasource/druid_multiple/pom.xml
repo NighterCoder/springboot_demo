@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tgou</groupId>
-    <artifactId>hikaricp_single</artifactId>
+    <artifactId>druid_multiple</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hikaricp_single</name>
+    <name>druid_multiple</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -24,16 +24,27 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!-- 实现对数据库连接池的自动化配置 -->
-        <!-- Spring Boot2.x版本,默认是采用HikariCP数据源的-->
+        <!-- 保证 Spring JDBC 的依赖健全 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <!-- 实现对 Druid 连接池的自动化配置 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.21</version>
         </dependency>
         <dependency> <!-- 本示例，我们使用 MySQL -->
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.48</version>
+        </dependency>
+
+        <!-- 实现对 Spring MVC 的自动化配置，因为我们需要看看 Druid 的监控功能 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>

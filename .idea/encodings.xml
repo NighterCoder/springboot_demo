@@ -2,7 +2,10 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/datasource" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datasource/druid_multiple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datasource/druid_single" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datasource/hikaricp_multiple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datasource/hikaricp_single" charset="UTF-8" />
   </component>
 </project>

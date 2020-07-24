@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/datasource/hikaricp_single/pom.xml" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_multiple/pom.xml" />
+        <option value="$PROJECT_DIR$/datasource/druid_single/pom.xml" />
+        <option value="$PROJECT_DIR$/datasource/druid_multiple/pom.xml" />
       </list>
     </option>
   </component>

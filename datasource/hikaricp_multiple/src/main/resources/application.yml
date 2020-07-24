@@ -1,0 +1,30 @@
+spring:
+  # datasource 数据源配置内容,对应DataSourceProperties配置属性类
+  datasource:
+    users:
+      url: jdbc:mysql://127.0.0.1:3306/users?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password:
+
+      # HikariCP 自定义配置,对应 HikariConfig 配置类
+      hikari:
+        minimum-idle: 20 # 池中维护的最小空闲连接数，默认为10个
+        maximum-pool-size: 20 # 池中最大连接数，包括闲置和使用中的连接，默认为10个
+
+    orders:
+      url: jdbc:mysql://127.0.0.1:3306/orders?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password:
+
+      # HikariCP 自定义配置,对应 HikariConfig 配置类
+      hikari:
+        minimum-idle: 15 # 池中维护的最小空闲连接数，默认为10个
+        maximum-pool-size: 15 # 池中最大连接数，包括闲置和使用中的连接，默认为10个
+
+person:
+  age: 18
+  height: 180
+  job:
+    salary: 10000

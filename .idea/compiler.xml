@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="datasource" />
+        <module name="druid_multiple" />
+        <module name="druid_single" />
+        <module name="hikaricp_multiple" />
         <module name="hikaricp_single" />
       </profile>
     </annotationProcessing>
@@ -16,7 +19,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="druid_multiple" options="-parameters" />
+      <module name="druid_single" options="-parameters" />
       <module name="hikaricp-single" options="" />
+      <module name="hikaricp_multiple" options="-parameters" />
       <module name="hikaricp_single" options="-parameters" />
     </option>
   </component>

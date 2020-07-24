@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c956fbb-7a10-407a-873b-3094b7f1ddcb" name="Default Changelist" comment="" />
+    <list default="true" id="2c956fbb-7a10-407a-873b-3094b7f1ddcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_multiple/druid_multiple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_multiple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_multiple/src/main/java/com/tgou/druid_multiple/DruidMultipleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_multiple/src/main/java/com/tgou/druid_multiple/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_multiple/src/test/java/com/tgou/druid_multiple/DruidMultipleApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_single/druid_single.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_single/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_single/src/main/java/com/tgou/druid_single/DruidSingleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/druid_single/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/hikaricp_multiple/hikaricp_multiple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/hikaricp_multiple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/MistakenDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/hikaricp_single/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/hikaricp_single/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datasource/hikaricp_single/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/hikaricp_single/src/main/java/com/tgou/hikaricp_single/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/datasource/hikaricp_single/src/main/java/com/tgou/hikaricp_single/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/hikaricp_single/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/datasource/druid_multiple/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/datasource/target/" />
     <ignored path="$PROJECT_DIR$/datasource/hikaricp_single/target/" />
+    <ignored path="$PROJECT_DIR$/datasource/hikaricp_multiple/target/" />
+    <ignored path="$PROJECT_DIR$/datasource/druid_single/target/" />
+    <ignored path="$PROJECT_DIR$/datasource/druid_multiple/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,39 +42,120 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/datasource/druid_single/src/main/java/com/tgou/druid_single/DruidSingleApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="247">
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datasource/hikaricp_single/src/main/java/com/tgou/hikaricp_single/Application.java">
+        <entry file="file://$PROJECT_DIR$/datasource/druid_single/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding>
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="72" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datasource/hikaricp_single/pom.xml">
+        <entry file="file://$PROJECT_DIR$/datasource/druid_multiple/src/main/java/com/tgou/druid_multiple/DruidMultipleApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="285">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasource/druid_multiple/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasource/druid_multiple/src/main/java/com/tgou/druid_multiple/config/DataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasource/druid_multiple/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasource/druid_single/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="48" selection-start-line="26" selection-start-column="8" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/DataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1575#1576#0" expanded="true" />
+                <element signature="e#1618#1619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2628">
+              <caret line="174" column="89" selection-start-line="174" selection-start-column="74" selection-end-line="174" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mini</find>
+      <find>minimumIdle</find>
+      <find>prefix = &quot;spring.datasource&quot;</find>
+      <find>prefix = &quot;spring.datasource</find>
+      <find>type</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,14 +164,30 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/datasource/hikaricp_single/src/main/java/com/tgou/hikaricp_single/HikaricpSingleApplication.java" />
         <option value="$PROJECT_DIR$/datasource/hikaricp_single/pom.xml" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_single/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/HikaricpMultipleApplication.java" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_multiple/pom.xml" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_single/src/main/java/com/tgou/hikaricp_single/Application.java" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/MistakenDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/Person.java" />
+        <option value="$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/Application.java" />
+        <option value="$PROJECT_DIR$/datasource/druid_single/pom.xml" />
+        <option value="$PROJECT_DIR$/datasource/druid_single/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/datasource/druid_single/src/main/java/com/tgou/druid_single/DruidSingleApplication.java" />
+        <option value="$PROJECT_DIR$/datasource/druid_multiple/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/datasource/druid_multiple/pom.xml" />
+        <option value="$PROJECT_DIR$/datasource/druid_multiple/src/main/java/com/tgou/druid_multiple/config/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/datasource/druid_multiple/src/main/java/com/tgou/druid_multiple/DruidMultipleApplication.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/software/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="C:\software\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="mavenHome" value="C:/software/apache-maven-3.5.0 - 副本" />
+        <option name="userSettingsFile" value="C:\software\apache-maven-3.5.0 - 副本\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -70,19 +196,19 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="417" />
-    <option name="y" value="26" />
-    <option name="width" value="1333" />
-    <option name="height" value="933" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="562" />
+    <option name="y" value="90" />
+    <option name="width" value="1334" />
+    <option name="height" value="934" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,49 +225,80 @@
               <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
               <item name="datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="hikaricp_single" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
               <item name="datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="hikaricp_single" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
               <item name="datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="hikaricp_single" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="hikaricp_single" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
               <item name="datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="hikaricp_single" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hikaricp_single" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_multiple" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="druid_single" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -163,7 +320,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudyApplication">
+  <component name="RunManager" selected="Spring Boot.DruidSingleApplication">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hikaricp_multiple" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgou.hikaricp_multiple.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hikaricp_single" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgou.hikaricp_single.Application" />
@@ -171,27 +335,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HikaricpSingleApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hikaricp_single" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgou.hikaricp_single.HikaricpSingleApplication" />
+    <configuration name="DruidMultipleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="druid_multiple" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgou.druid_multiple.DruidMultipleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HikaricpSingleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hikaricp-single" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgou.hikaricpsingle.HikaricpSingleApplication" />
+    <configuration name="DruidSingleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="druid_single" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgou.druid_single.DruidSingleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hikaricp-single" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgou.study.StudyApplication" />
+    <configuration name="HikaricpMultipleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hikaricp_multiple" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tgou.hikaricp_multiple.HikaricpMultipleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.HikaricpMultipleApplication" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.DruidSingleApplication" />
+      <item itemvalue="Spring Boot.DruidMultipleApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -203,33 +374,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595575079394</updated>
-      <workItem from="1595575091882" duration="1053000" />
+      <workItem from="1595575091882" duration="9647000" />
+      <workItem from="1595596530429" duration="2648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1053000" />
+    <option name="totallyTimeSpent" value="12295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="334" y="21" width="1066" height="746" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Web" side_tool="true" />
       <window_info id="JRebel" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2718254" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.8426073" visible="true" weight="0.1930295" />
+      <window_info id="Structure" order="2" sideWeight="0.15739268" side_tool="true" visible="true" weight="0.1930295" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Sequence" order="1" />
       <window_info anchor="bottom" id="CheckStyle" order="2" />
       <window_info anchor="bottom" id="JRebel Console" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.07771261" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.19501466" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -239,6 +413,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="right" id="PlantUML" order="0" />
       <window_info anchor="right" id="Bean Validation" order="1" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
@@ -255,15 +430,64 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/MistakenDataSourceConfig.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/DataSourceConfig.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/DataSourceConfig.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datasource/hikaricp_single/src/main/java/com/tgou/hikaricp_single/Application.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/Application.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/Application.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>createHikariDataSource(properties)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DataSourceBuilder.create().build()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datasource/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/HELP.md" />
     <entry file="file://$PROJECT_DIR$/datasource/datasource.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -281,21 +505,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_single/src/main/java/com/tgou/hikaricp_single/Application.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="261">
+          <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_multiple/HELP.md" />
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_single/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="37" selection-start-line="26" selection-start-column="7" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.jar!/org/springframework/boot/jdbc/DataSourceBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_single/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="194">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_multiple/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_single/src/main/java/com/tgou/hikaricp_single/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_single/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar!/com/zaxxer/hikari/HikariConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="174" column="43" selection-start-line="174" selection-start-column="43" selection-end-line="174" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/MistakenDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" selection-start-line="8" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.3.1.RELEASE/spring-boot-starter-jdbc-2.3.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-742" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar!/com/zaxxer/hikari/HikariDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.2.7.RELEASE/spring-jdbc-5.2.7.RELEASE.jar!/org/springframework/jdbc/datasource/IsolationLevelDataSourceAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/hikaricp_multiple/src/main/java/com/tgou/hikaricp_multiple/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1575#1576#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2628">
+          <caret line="174" column="89" selection-start-line="174" selection-start-column="74" selection-end-line="174" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/druid_single/src/main/java/com/tgou/druid_single/DruidSingleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/druid_single/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/druid_single/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="48" selection-start-line="26" selection-start-column="8" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/druid_multiple/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/druid_multiple/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/druid_multiple/src/main/java/com/tgou/druid_multiple/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasource/druid_multiple/src/main/java/com/tgou/druid_multiple/DruidMultipleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
         </state>
       </provider>
     </entry>
